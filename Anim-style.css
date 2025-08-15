@@ -1,0 +1,121 @@
+body{
+    background: linear-gradient(to right, sandybrown, white, green);
+    padding: 2px;
+    height: 600px;
+    width: auto;
+}
+.body{
+    background-image: url(./CSSA5/CSSA5/sky.jpg);
+    width: 100%;
+    height: 445px;
+}
+.p{
+    display: flex;
+    font-size: 35px;
+    font-weight: bold;
+    justify-content: center;
+}
+#p1{
+    color: black;
+    background-color: sandybrown;
+    margin-right: 5px;
+}
+#p2{
+    color: black;
+    background-color: white;
+    margin-right: 5px;
+}
+#p3{
+    color: black;
+    background-color: green;
+}
+.main2{
+    background-image: url(./CSSA5/CSSA5/road.jpg);
+    height: 210px;
+    width: 500%;
+    position: relative;
+    background-repeat: repeat;
+    background-size: cover;
+    margin-top: 200px;
+    animation: road 10s linear infinite;
+}
+@keyframes road {
+    0%{
+        right: 0%;
+    }
+    100%{
+        right: 100%;
+    }
+}
+.city{
+    height: 265px;
+    background-image: url(./CSSA5/CSSA5/city.png);
+    margin-bottom: 20px;
+    width: 100%;
+    position: absolute;
+}
+.car{
+    height: 145px;
+    width: 345px;
+    margin-left: 400px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -50px;
+    top: 110px;
+}
+.cars{
+    position: relative;
+    margin-bottom: -110px;
+}
+.flag{
+    height: 60px;
+    width: 70px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -238px;
+    margin-left: 580px;
+    top: 2px;
+}
+.wheel-1{
+    height: 57px;
+    width: 57px;
+    margin-left: 150px;
+    position: relative;
+    left: 283px;
+    top: 250px;
+    z-index: 1;
+    animation: wheel 2s linear infinite;
+}
+@keyframes wheel {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.wheel-2{
+    height: 57px;
+    width: 57px;
+    margin-left: 150px;
+    position: relative;
+    left: 283px;
+    top: 250px;
+    z-index: 1;
+    animation: wheel 2s linear infinite;
+}
+.sun{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 1050px;
+    animation: sun 40s linear infinite;
+}
+@keyframes sun {
+    0%{
+        right: 0%;
+    }
+    100%{
+        left: -50%;
+    }
+}
